@@ -1,0 +1,165 @@
+"body": {
+    "DevEUI_uplink": {
+      "Time": "2022-06-20T07:35:58.000+00:00",
+      "DevEUI": "20635F0251000143",
+      "FPort": 18,
+      "FCntUp": 28984,
+      "ADRbit": 1,
+      "MType": 2,
+      "FCntDn": 40,
+      "payload_hex": "03480c8b1a0054434c040009d354434c030008c354434c010001b4",
+      "mic_hex": "a56d4309",
+      "Lrcid": "000000CB",
+      "LrrRSSI": -46,
+      "LrrSNR": 8.25,
+      "LrrESP": -46.605556,
+      "SpFact": 12,
+      "SubBand": "G0",
+      "Channel": "LC8",
+      "DevLrrCnt": 1,
+      "Lrrid": "10000709",
+      "Late": 0,
+      "Lrrs": {
+        "Lrr": [
+          {
+            "Lrrid": "10000709",
+            "Chain": 0,
+            "LrrRSSI": -46,
+            "LrrSNR": 8.25,
+            "LrrESP": -46.605556
+          }
+        ]
+      },
+      "CustomerID": "100009247",
+      "CustomerData": {
+        "alr": {
+          "pro": "ABEE/APY",
+          "ver": "1"
+        },
+        "tags": [
+          "damansara",
+          "subcontractor"
+        ]
+      },
+      "ModelCfg": "1:TPX_50d9a605-e468-4bbb-8072-0d3d29cf427b",
+      "DriverCfg": {
+        "mod": {
+          "pId": "abeeway",
+          "mId": "smart-badge",
+          "ver": "1"
+        },
+        "app": {
+          "pId": "abeeway",
+          "mId": "asset-tracker",
+          "ver": "2"
+        },
+        "id": "abeeway:asset-tracker:3"
+      },
+      "InstantPER": 0,
+      "MeanPER": 0,
+      "DevAddr": "040006B7",
+      "AckRequested": 0,
+      "rawMacCommands": "",
+      "TxPower": 18,
+      "NbTrans": 3,
+      "Frequency": 922.9,
+      "DynamicClass": "A",
+      "payload": {
+        "messageType": "POSITION_MESSAGE",
+        "age": 0,
+        "trackingMode": "PERMANENT_TRACKING",
+        "batteryLevel": 12,
+        "batteryStatus": "OPERATING",
+        "ackToken": 1,
+        "rawPositionType": "BLE_BEACON_SCAN_SHORT_ID",
+        "periodicPosition": false,
+        "temperatureMeasure": 26.3,
+        "sosFlag": 0,
+        "appState": 1,
+        "dynamicMotionState": "STATIC",
+        "onDemand": false,
+        "payload": "03480c8b1a0054434c040009d354434c030008c354434c010001b4",
+        "deviceConfiguration": {
+          "mode": "PERMANENT_TRACKING"
+        },
+        "bleBeaconIds": [
+          {
+            "beaconId": "54-43-4c-04-00-09",
+            "rssi": -45
+          },
+          {
+            "beaconId": "54-43-4c-03-00-08",
+            "rssi": -61
+          },
+          {
+            "beaconId": "54-43-4c-01-00-01",
+            "rssi": -76
+          }
+        ]
+      },
+      "points": {
+        "messageType": {
+          "type": "string",
+          "record": "POSITION_MESSAGE"
+        },
+        "dynamicMotionState": {
+          "type": "string",
+          "record": "STATIC"
+        },
+        "appState": {
+          "type": "int64",
+          "record": 1
+        },
+        "sosFlag": {
+          "type": "int64",
+          "record": 0
+        },
+        "onDemand": {
+          "type": "boolean",
+          "record": false
+        },
+        "ackToken": {
+          "type": "int64",
+          "record": 1
+        },
+        "periodicPosition": {
+          "type": "boolean",
+          "record": false
+        },
+        "trackingMode": {
+          "type": "string",
+          "record": "PERMANENT_TRACKING"
+        },
+        "batteryStatus": {
+          "type": "string",
+          "record": "OPERATING"
+        },
+        "batteryLevel": {
+          "unitId": "%",
+          "type": "double",
+          "record": 12
+        },
+        "temperature": {
+          "unitId": "Cel",
+          "type": "double",
+          "record": 26.3
+        },
+        "deviceMode": {
+          "type": "string",
+          "record": "PERMANENT_TRACKING"
+        },
+        "age": {
+          "unitId": "s",
+          "type": "double",
+          "record": 0
+        },
+        "rawPositionType": {
+          "type": "string",
+          "record": "BLE_BEACON_SCAN_SHORT_ID"
+        }
+      }
+    }
+  },
+  "enqueuedTime": "Mon Jun 20 2022 15:35:59 GMT+0800 (Singapore Standard Time)"
+}
+
